@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7D54C05939BBB4B73E7CEFC /* Pods_Twuit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6176E611F06160643DFF55AA /* Pods_Twuit.framework */; };
+		EC0A41C02505537900073A4E /* TwitSentimentClassifierIsmail.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EC0A41BF2505537900073A4E /* TwitSentimentClassifierIsmail.mlmodel */; };
+		EC0A41D42505675500073A4E /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0A41CA2505670700073A4E /* SwifteriOS.framework */; };
+		EC0A41D52505675500073A4E /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC0A41CA2505670700073A4E /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC16F8CD25050695004800F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16F8CC25050695004800F2 /* AppDelegate.swift */; };
+		EC16F8CF25050695004800F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16F8CE25050695004800F2 /* SceneDelegate.swift */; };
+		EC16F8D125050695004800F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16F8D025050695004800F2 /* ViewController.swift */; };
+		EC16F8D425050695004800F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC16F8D225050695004800F2 /* Main.storyboard */; };
+		EC16F8D625050696004800F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC16F8D525050696004800F2 /* Assets.xcassets */; };
+		EC16F8D925050696004800F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC16F8D725050696004800F2 /* LaunchScreen.storyboard */; };
+		ECA4000E25066EBE008B6F2E /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ECA4000D25066EBE008B6F2E /* IQKeyboardManagerSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC0A41C92505670700073A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0A41C12505670700073A4E /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		EC0A41CB2505670700073A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0A41C12505670700073A4E /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		EC0A41CD2505670700073A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0A41C12505670700073A4E /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		EC0A41CF2505670700073A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0A41C12505670700073A4E /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		EC0A41D12505670700073A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0A41C12505670700073A4E /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC0A41D62505675600073A4E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EC0A41D52505675500073A4E /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6176E611F06160643DFF55AA /* Pods_Twuit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twuit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2B4D27E9A3E2C9370635DB /* Pods-Twuit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twuit.release.xcconfig"; path = "Target Support Files/Pods-Twuit/Pods-Twuit.release.xcconfig"; sourceTree = "<group>"; };
+		EC0A41BF2505537900073A4E /* TwitSentimentClassifierIsmail.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TwitSentimentClassifierIsmail.mlmodel; sourceTree = SOURCE_ROOT; };
+		EC0A41C12505670700073A4E /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		EC16F8C925050695004800F2 /* Twuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC16F8CC25050695004800F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC16F8CE25050695004800F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC16F8D025050695004800F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC16F8D325050695004800F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC16F8D525050696004800F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC16F8D825050696004800F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC16F8DA25050696004800F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5FB0CF6F0709F22F1638B6 /* Pods-Twuit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twuit.debug.xcconfig"; path = "Target Support Files/Pods-Twuit/Pods-Twuit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC16F8C625050695004800F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0A41D42505675500073A4E /* SwifteriOS.framework in Frameworks */,
+				E7D54C05939BBB4B73E7CEFC /* Pods_Twuit.framework in Frameworks */,
+				ECA4000E25066EBE008B6F2E /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC0A41C22505670700073A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A41CA2505670700073A4E /* SwifteriOS.framework */,
+				EC0A41CC2505670700073A4E /* SwifterMac.framework */,
+				EC0A41CE2505670700073A4E /* SwifterDemoiOS.app */,
+				EC0A41D02505670700073A4E /* SwifterDemoMac.app */,
+				EC0A41D22505670700073A4E /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0A41D32505675500073A4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6176E611F06160643DFF55AA /* Pods_Twuit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC16F8C025050695004800F2 = {
+			isa = PBXGroup;
+			children = (
+				EC0A41C12505670700073A4E /* Swifter.xcodeproj */,
+				EC16F8CB25050695004800F2 /* Twuit */,
+				EC16F8CA25050695004800F2 /* Products */,
+				EC0A41D32505675500073A4E /* Frameworks */,
+				EF2F213BB96718767AB03417 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EC16F8CA25050695004800F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC16F8C925050695004800F2 /* Twuit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC16F8CB25050695004800F2 /* Twuit */ = {
+			isa = PBXGroup;
+			children = (
+				EC16F8CC25050695004800F2 /* AppDelegate.swift */,
+				EC16F8CE25050695004800F2 /* SceneDelegate.swift */,
+				EC16F8D025050695004800F2 /* ViewController.swift */,
+				EC16F8D225050695004800F2 /* Main.storyboard */,
+				EC16F8D525050696004800F2 /* Assets.xcassets */,
+				EC16F8D725050696004800F2 /* LaunchScreen.storyboard */,
+				EC16F8DA25050696004800F2 /* Info.plist */,
+				EC0A41BF2505537900073A4E /* TwitSentimentClassifierIsmail.mlmodel */,
+			);
+			path = Twuit;
+			sourceTree = "<group>";
+		};
+		EF2F213BB96718767AB03417 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF5FB0CF6F0709F22F1638B6 /* Pods-Twuit.debug.xcconfig */,
+				7D2B4D27E9A3E2C9370635DB /* Pods-Twuit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC16F8C825050695004800F2 /* Twuit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC16F8DD25050696004800F2 /* Build configuration list for PBXNativeTarget "Twuit" */;
+			buildPhases = (
+				BE102BC2887FE5770D067802 /* [CP] Check Pods Manifest.lock */,
+				EC16F8C525050695004800F2 /* Sources */,
+				EC16F8C625050695004800F2 /* Frameworks */,
+				EC16F8C725050695004800F2 /* Resources */,
+				EC0A41D62505675600073A4E /* Embed Frameworks */,
+				C4B39A90A6D966C8FFCFED3D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twuit;
+			packageProductDependencies = (
+				ECA4000D25066EBE008B6F2E /* IQKeyboardManagerSwift */,
+			);
+			productName = Twuit;
+			productReference = EC16F8C925050695004800F2 /* Twuit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC16F8C125050695004800F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ismail .";
+				TargetAttributes = {
+					EC16F8C825050695004800F2 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = EC16F8C425050695004800F2 /* Build configuration list for PBXProject "Twuit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC16F8C025050695004800F2;
+			packageReferences = (
+				ECA4000C25066EBE008B6F2E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = EC16F8CA25050695004800F2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EC0A41C22505670700073A4E /* Products */;
+					ProjectRef = EC0A41C12505670700073A4E /* Swifter.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				EC16F8C825050695004800F2 /* Twuit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EC0A41CA2505670700073A4E /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = EC0A41C92505670700073A4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC0A41CC2505670700073A4E /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = EC0A41CB2505670700073A4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC0A41CE2505670700073A4E /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = EC0A41CD2505670700073A4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC0A41D02505670700073A4E /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = EC0A41CF2505670700073A4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC0A41D22505670700073A4E /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = EC0A41D12505670700073A4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC16F8C725050695004800F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16F8D925050696004800F2 /* LaunchScreen.storyboard in Resources */,
+				EC16F8D625050696004800F2 /* Assets.xcassets in Resources */,
+				EC16F8D425050695004800F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE102BC2887FE5770D067802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Twuit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B39A90A6D966C8FFCFED3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twuit/Pods-Twuit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twuit/Pods-Twuit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twuit/Pods-Twuit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC16F8C525050695004800F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0A41C02505537900073A4E /* TwitSentimentClassifierIsmail.mlmodel in Sources */,
+				EC16F8D125050695004800F2 /* ViewController.swift in Sources */,
+				EC16F8CD25050695004800F2 /* AppDelegate.swift in Sources */,
+				EC16F8CF25050695004800F2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC16F8D225050695004800F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC16F8D325050695004800F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC16F8D725050696004800F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC16F8D825050696004800F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC16F8DB25050696004800F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC16F8DC25050696004800F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC16F8DE25050696004800F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5FB0CF6F0709F22F1638B6 /* Pods-Twuit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8XJKQSAWS;
+				INFOPLIST_FILE = Twuit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ismail..Twuit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC16F8DF25050696004800F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2B4D27E9A3E2C9370635DB /* Pods-Twuit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8XJKQSAWS;
+				INFOPLIST_FILE = Twuit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ismail..Twuit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC16F8C425050695004800F2 /* Build configuration list for PBXProject "Twuit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC16F8DB25050696004800F2 /* Debug */,
+				EC16F8DC25050696004800F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC16F8DD25050696004800F2 /* Build configuration list for PBXNativeTarget "Twuit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC16F8DE25050696004800F2 /* Debug */,
+				EC16F8DF25050696004800F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECA4000C25066EBE008B6F2E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECA4000D25066EBE008B6F2E /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECA4000C25066EBE008B6F2E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EC16F8C125050695004800F2 /* Project object */;
+}
